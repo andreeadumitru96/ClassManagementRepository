@@ -1,0 +1,7 @@
+{
+	"name": "Node.js Students Classroom",
+	"description": "A simple Node.js app",
+	"repository": "https://github.com/andreeadumitru96/ClassManagement",
+	"logo": "http://node-js-sample.herokuapp.com/svg",
+	"keywords": ["node", "static"],
+}

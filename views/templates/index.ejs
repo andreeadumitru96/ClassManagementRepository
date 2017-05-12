@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+<div id = "className">
+    Class Name:
+</div>
+
+<div id = "principleName">
+    Principle Name:
+</div>
+
+<div id = "classAverage">
+    Class Average:
+</div>
+
+<div id='exemple'>
+    <table id="table" border = "1">
+        <thead>
+        <tr>
+            <th>Number</th>
+            <th> Name</th>
+            <th> English</th>
+            <th> Math</th>
+            <th> Average</th>
+            <th>Action Buttons</th>
+
+        </tr>
+        </thead>
+
+        <tbody></tbody>
+
+    </table>
+</div>
+
+<br><br>
+
+<br>
+<fieldset>
+    <form action = "" name = "addingStudents" method ="POST">
+
+        <label>First Name: <br>
+            <input type = "text" class = "st" id = "fname" name = "fname"></label>
+
+        <br><br>
+        <label>Last Name: <br>
+            <input type = "text" class = "st" id = "lname" name = "lname"></label>
+
+        <br><br>
+        <label>English: <br>
+            <input type = "text" class = "st" id = "eng" name = "eng"></label>
+
+        <br><br>
+        <label>Math: <br>
+            <input type = "text" class = "st" id = "math" name = "math"></label>
+
+        <br><br>
+
+        <input type = "button" id = "addSt" value = "Add Student">
+    </form>
+</fieldset>
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="js/namespaces.js"></script>
+<script src="js/index.js"></script>
+<script src="js/classroom.js"></script>
+<script src="js/student.js"></script>
+<script src="js/hardcoded_data.js"></script>
+<script>
+    $(document).ready( function(){
+        var app = new classManagement.Main();
+
+    });
+
+</script>
+
+
+</body>
+</html>
